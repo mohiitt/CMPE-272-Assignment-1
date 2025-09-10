@@ -10,14 +10,13 @@ Each service is independent, can be started separately, and communicates via HTT
 
 ---
 
-## ⚙️ Working
+## Working
 
 ### User Service
 - Runs on **port 5001**.
 - Endpoints:
   - `GET /users/<id>` → Retrieve user by ID.
   - `POST /users` → Create a new user.
-  - `DELETE /users/<id>` → Delete a user.
 
 ### Order Service
 - Runs on **port 5002**.
